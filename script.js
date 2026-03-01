@@ -11,6 +11,8 @@ const drawGame = () =>{
     msg.innerText = "It's a draw!,Play again!";
     msg.style.backgroundColor = "gray";
 }
+// make a checkWinner function that will check 5 rounds, also implement a restart game after winning (use settimeout 2000)
+
 
 const showWinner = (userWin,userChoice,compChoice) =>{
     if(userWin){
@@ -18,6 +20,7 @@ const showWinner = (userWin,userChoice,compChoice) =>{
         userScorePara.innerText = userScore;
         msg.innerText = `You win! Your ${userChoice} beats ${compChoice}`;
         msg.style.backgroundColor = "green";
+        // checkWinner();
     }else{
        compScore++;
         compScorePara.innerText = compScore;
@@ -62,3 +65,4 @@ choices.forEach((choice) =>{
         playGame(userChoice);
     })
 });
+
