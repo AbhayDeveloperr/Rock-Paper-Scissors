@@ -57,6 +57,11 @@ img{
 
 .msg-container{
     margin-top: 5rem;
+    font-size: 32px;
+    padding: 12px 15px;
+    color: white;
+    border-radius: 1rem;
+    
 }
 
 #msg{
@@ -66,5 +71,4 @@ img{
     font-size: 2rem;
     display: inline;
     padding: 1rem;
-    border-radius: 1rem;
 }

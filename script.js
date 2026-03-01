@@ -2,7 +2,7 @@ let userScore = 0;
 let compScore = 0;
 
 let choices = document.querySelectorAll(".choice");
-let msg = document.querySelector("#msg");
+let msg = document.querySelector(".msg-container");
 let userScorePara = document.querySelector("#userScore");
 let compScorePara = document.querySelector("#computerScore");
 
